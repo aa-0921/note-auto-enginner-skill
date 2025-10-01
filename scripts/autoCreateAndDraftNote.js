@@ -336,6 +336,10 @@ import { runWithCore } from '@aa-0921/note-auto-core';
       '💻　✨　💻　✨　💻　✨　💻　✨　💻　✨　💻　✨　💻　✨　💻　✨　',
     ].join('\n');
 
+    // Kindleアフィリエイト設定（直接指定）
+    const kindleAffiliateTag = 'note-enginner-22';
+    const kindleAffiliateEnabled = true;
+
     // アソシエイト表記文（エンジニア向けに更新）
     const amazonAssociateText =
       'Amazon のアソシエイトとして、「エンジニアスクール💻マンツーマンレッスン」は適格販売により収入を得ています。';
@@ -353,6 +357,9 @@ import { runWithCore } from '@aa-0921/note-auto-core';
       affiliateLinks,
       magazinePromotion,
       amazonAssociateText,
+      // Kindleアフィリエイト設定
+      kindleAffiliateTag,
+      kindleAffiliateEnabled,
     });
     console.log('記事の自動生成と下書き保存が完了しました');
   });
