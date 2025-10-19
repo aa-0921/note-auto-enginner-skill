@@ -12,7 +12,7 @@ ai:
   # ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
   # ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
   # ↓から無料のAPIを探す
-  # https://openrouter.ai/models?max_price=0
+  # https://openrouter.ai/models?max_price=0&order=top-weekly
   # ーーーーーーーーーーーーーーーーーーーーーー
 
   # ↓早いし、内容も問題なさそう
@@ -65,7 +65,9 @@ ai:
   # model: 'openai/gpt-oss-20b:free'
   # ↓429に引っかかりにくいかも？
   # 2025/10/12 記事のクオリティまあまあ
+  # 文字が途中で切れるが、クオリティは良さそう→出力tokenを増やすとうまくいった
   model: 'z-ai/glm-4.5-air:free'
+
   # model: 'deepseek/deepseek-chat-v3-0324:free'
   # model: 'moonshotai/kimi-k2:free'
   # model: 'cognitivecomputations/dolphin-mistral-24b-venice-edition:free'
@@ -75,13 +77,16 @@ ai:
   # model: 'tngtech/deepseek-r1t2-chimera:free'
   # model: 'meta-llama/llama-4-maverick:free'
 
+  # model: 'meituan/longcat-flash-chat:free'
+
+  # model: 'tngtech/deepseek-r1t2-chimera:free'
 
   # ----記事作成・リライト・タグ生成それぞれで別のmodelを指定する場合↓models（これを指定する場合はmodel は不要）-----
   # 新しい個別モデル指定
   # models:
-  #   article: 'meituan/longcat-flash-chat' # 記事作成用
-  #   rewrite: 'meituan/longcat-flash-chat' # リライト用
-  #   tags: 'meituan/longcat-flash-chat' # タグ生成用
+  #   article: 'tngtech/deepseek-r1t2-chimera:free' # 記事作成用
+  #   rewrite: 'tngtech/deepseek-r1t-chimera:free' # リライト用
+  #   tags: 'tngtech/deepseek-r1t-chimera:free' # タグ生成用
     # ---------------------------------------------------------
   # フォールバックモデル設定（429エラー時）
   # fallback_models:
@@ -117,7 +122,8 @@ ai:
 
   # ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
   temperature: 0.7
-  max_tokens: 1200
+  # max_tokens: 1200
+  max_tokens: 3000
 note:
   login_method: 'email_password'
   cookie_secret_name: 'NOTE_COOKIE'
