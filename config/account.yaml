@@ -19,8 +19,8 @@ ai:
   # 2025/06/25 なぜか認証エラーで使えなくなった
   # 2025/10/12 使えるクオリティもまあまあ
   # ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-  # meta-llama/llama-4-maverick-17b-128e-instruct:free requires moderation on Meta. 
-  # Your input was flagged for "misc". 
+  # meta-llama/llama-4-maverick-17b-128e-instruct:free requires moderation on Meta.
+  # Your input was flagged for "misc".
   # No credits were charged.
   # ーーーーーーーーーーーーー
   # Metaのコンテンツモデレーションシステムが入力をブロック
@@ -121,7 +121,6 @@ ai:
   #   };
 
   # ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-  temperature: 0.7
   temperature: 0.7
   # max_tokens: 1200
   max_tokens: 3000
