@@ -261,6 +261,16 @@ export { affiliateConfig, affiliateLinks };
     const amazonAssociateText =
       'Amazon のアソシエイトとして、「エンジニアスクール💻マンツーマンレッスン」は適格販売により収入を得ています。';
 
+    // おすすめ記事セクションの設定
+    const recommendedArticlesTitle = '他のおすすめ記事‼️';
+    const recommendedArticlesUrls = [
+      'https://note.com/enginner_skill/n/na866688cc0a9',
+      'https://note.com/enginner_skill/n/nea25f1eede60',
+      'https://note.com/enginner_skill/n/n32e8e99dd866',
+      'https://note.com/enginner_skill/n/n0fdee6ec057f',
+      'https://note.com/enginner_skill/n/n7270f6ec118d',
+    ];
+
     // 記事の自動生成と下書き保存機能を実行
     await core.runAutoCreateAndDraftNote({
       background: wantsBackground,
@@ -278,6 +288,9 @@ export { affiliateConfig, affiliateLinks };
       affiliateTag: affiliateConfig.affiliateTag,
       audibleAffiliateEnabled: affiliateConfig.audibleAffiliateEnabled,
       kindleAffiliateEnabled: affiliateConfig.kindleAffiliateEnabled,
+      // おすすめ記事セクション設定
+      recommendedArticlesTitle,
+      recommendedArticlesUrls,
     });
     console.log('記事の自動生成と下書き保存が完了しました');
   });
