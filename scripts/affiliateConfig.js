@@ -4,12 +4,14 @@
 const affiliateTag = 'note-enginner-22';
 const audibleAffiliateEnabled = true;
 const kindleAffiliateEnabled = true;
+const associateName = 'エンジニアスクール💻マンツーマンレッスン';
 
 // アフィリエイト設定をエクスポート
 export const affiliateConfig = {
   affiliateTag,
   audibleAffiliateEnabled,
   kindleAffiliateEnabled,
+  associateName,
 };
 
 // 記事内に挿入するアフィリエイト文（エンジニア向けに更新）
