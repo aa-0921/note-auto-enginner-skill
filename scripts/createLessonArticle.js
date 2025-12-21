@@ -89,8 +89,9 @@ import { lessonArticleElements } from '../data/lesson-article-elements.js';
     const contactMessage = [
       '✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨',
       '↓お気軽にご質問ください😊',
+      'オンラインでのレッスンなのでご自宅から受講可能です🙆‍♂️',
       '「投稿者にメールでお問い合わせ」からDMをお願いします！',
-      'https://jmty.jp/tokyo/les-pc/article-1it5e7',
+      'https://jmty.jp/kanagawa/les-pc/article-1j9vqa',
       '',
       '✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨',
     ].join('\n');
