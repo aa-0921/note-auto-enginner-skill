@@ -18,6 +18,26 @@ export const affiliateConfig = {
 export const affiliateLinks = [
   [
     '',
+    '💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻',
+    'プログラミング マンツーマン レッスン',
+    '↓お気軽にご質問ください😊',
+    'https://jmty.jp/kanagawa/les-pc/article-1j9vqa',
+    '💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻',
+    '',
+  ].join('\n'),
+
+  [
+    '',
+    '💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻',
+    'プログラミング マンツーマン レッスン',
+    '↓お気軽にご質問ください😊',
+    'https://jmty.jp/kanagawa/les-pc/article-1j9vqa',
+    '💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻　📚　💻',
+    '',
+  ].join('\n'),
+
+  [
+    '',
     '📚　💡　📚　💡　📚　💡　📚　💡　📚　💡　📚　💡　📚　💡　📚　💡　',
     'https://amzn.to/4mTYY6V',
     '👆まずは言葉を覚えると知識と知識が繋がりやすくなります😊コスパ最強です👍',
