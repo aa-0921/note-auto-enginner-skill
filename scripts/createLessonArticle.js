@@ -92,7 +92,7 @@ import { lessonArticleElements } from '../data/lesson-article-elements.js';
       'オンラインでのレッスンなのでご自宅から受講可能です🙆‍♂️',
       '「投稿者にメールでお問い合わせ」からDMをお願いします！',
       // 'https://jmty.jp/kanagawa/les-pc/article-1j9vqa',
-      'https://jmty.jp/osaka/les-pc/article-1j9vt9',
+      'https://jmty.jp/osaka/les-pc/article-1j9vt9', // 変更時 2026/01/06  60view（観察用メモ）
       '',
       '✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨　💬　✨',
     ].join('\n');
