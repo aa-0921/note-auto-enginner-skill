@@ -8,14 +8,19 @@ import { runWithCore } from '@aa-0921/note-auto-core';
     // アカウント固有の検索ワード配列（ここで管理）
     const baseSearchWords = [
       'フォロバ',
-      // 'フォロバ100',
+      'フォロバ100',
+      '相互',
+      'フォローバック',
     ];
 
     const workTroubleSearchWords = [
     ];
 
-    // 結合して使用（順番はそのまま結合順）
-    const searchWords = [...baseSearchWords, ...workTroubleSearchWords];
+    const otherSearchWords = [
+    ];
+
+    // すべてのリストを結合
+    const searchWords = [...baseSearchWords, ...workTroubleSearchWords, ...otherSearchWords];
 
     await core.runFollowFromUserSearch({
       background: wantsBackground,
