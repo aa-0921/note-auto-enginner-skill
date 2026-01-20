@@ -271,11 +271,16 @@ export { affiliateConfig, affiliateLinks };
       'https://note.com/enginner_skill/n/n7270f6ec118d',
     ];
 
+    // 記事の最初と最後に追加するコメント募集テキスト
+    const commentRequestText =
+      'コメントをいただけると、とても励みになります。扱ってほしい記事の題材やテーマなど、ご意見がありましたら、どのような内容でもお気軽にお寄せください。';
+
     // 記事の自動生成と下書き保存機能を実行
     await core.runAutoCreateAndDraftNote({
       background: wantsBackground,
       topics,
       patterns,
+      commentRequestText,
       systemMessage,
       articleConditionsLines,
       rewriteConditionsLines,
