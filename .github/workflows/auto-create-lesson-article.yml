@@ -4,9 +4,9 @@
 name: Auto Create Lesson Article
 
 on:
-  # schedule:
-  # # JST 12:00に1日1回実行
-  # - cron: '0 3 * * *'   # JST 12:00 (UTC+9)
+  schedule:
+    # JST 12:00に1日1回実行
+    - cron: '0 3 * * *'   # JST 12:00 (UTC+9)
   workflow_dispatch: # 手動実行
 
 jobs:
